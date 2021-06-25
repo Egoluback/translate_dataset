@@ -4,4 +4,6 @@ Script uses selenium web-scrapping tool to load and parse data from translator s
 It has dynamic logging system: progress updates every line, and every 50 lines backup happens. It also can load from save point if parsing process was interrupted. In cause of error webdriver reboots and this line is being skipped. <br />
 The result will be located in "-trans" columns. <br />
 
+A set up geckodriver firefox webdriver(or different - can be changed in code) is required. <br />
+
 So far supported only two columns, in future it will not be limited.
